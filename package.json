@@ -1,0 +1,20 @@
+{
+  "name": "ae-thel",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:admin": "yarn workspace @aethel/admin dev",
+    "dev:client": "yarn workspace @aethel/client dev",
+    "dev:server": "yarn workspace @aethel/server start:dev",
+    "build:admin": "yarn workspace @aethel/admin build",
+    "build:client": "yarn workspace @aethel/client build",
+    "build:server": "yarn workspace @aethel/server build",
+    "start:admin": "yarn workspace @aethel/admin start",
+    "start:client": "yarn workspace @aethel/client start",
+    "start:server": "yarn workspace @aethel/server start"
+  }
+}
